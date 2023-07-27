@@ -46,8 +46,6 @@ public class S3TestCase  extends uploadFileList {
 
     AmazonS3 s3Client = null;
 
-
-
     // 初始化   在所有测试用例执行之前执行此用例  一般做数据准备
     @BeforeEach
     public void init() {
